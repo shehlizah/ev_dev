@@ -1,38 +1,42 @@
-<?php
-if (!defined('ABSPATH')) {
-    exit;
-}
+<div id="login-section">
+    <h2>Customer Login</h2>
+    <form id="login-form" method="post">
+        <label for="username">Username</label>
+        <input type="text" name="username" required>
 
-function custom_login_form() {
-    ob_start();
-    ?>
-    <div id="custom-auth-modal" class="auth-modal">
-        <div class="auth-modal-content">
-            <span class="auth-close" onclick="closeAuthModal()">&times;</span>
-            <h2>Customer Login</h2>
-            <form method="post">
-                <label for="username">Username</label>
-                <input type="text" name="username" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" required>
 
-                <label for="password">Password</label>
-                <input type="password" name="password" required>
+        <input type="submit" name="login_user" value="Login">
+    </form>
 
-                <input type="submit" name="login_user" value="Login">
-            </form>
-
-            <div id="otp-section" style="display: none;">
-                <h3>Enter OTP</h3>
-                <form method="post">
-                    <input type="text" name="otp" required>
-                    <input type="submit" name="verify_otp" value="Verify OTP">
-                </form>
-            </div>
-
-            <p>Don't have an account? <a href="#" onclick="showRegistration()">Register Here</a></p>
-        </div>
+    <div id="otp-section" style="display: none;">
+        <h3>Enter OTP</h3>
+        <form method="post">
+            <input type="text" name="otp" required>
+            <input type="submit" name="verify_otp" value="Verify OTP">
+        </form>
     </div>
-    <?php
-    return ob_get_clean();
+
+    <p>Don't have an account? <a href="#" onclick="showRegistration()">Register Here</a></p>
+</div>
+
+<?php
+// 2FA Handling
+if (isset($_POST['verify_otp'])) {
+    // OTP verification logic
+    $otp = $_POST['otp'];
+    if (verify_otp($otp)) {
+        // Successful OTP verification
+        wp_redirect(home_url());
+        exit;
+    } else {
+        echo '<p>Invalid OTP!</p>';
+    }
 }
-add_shortcode('custom_login', 'custom_login_form');
+
+function verify_otp($otp) {
+    // Your OTP verification logic here (e.g., check database or external service)
+    return true; // Placeholder for OTP check
+}
 ?>

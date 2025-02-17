@@ -1,20 +1,45 @@
-
 <?php
 /**
  * Plugin Name: Custom Authentication Plugin
  * Description: A plugin for user login, registration with multi-relationship, and 2FA.
  * Version: 1.0
  * Author: Advance I-Tech
- * 
  */
+
 if (!defined('ABSPATH')) {
     exit; // Prevent direct access
 }
+
+// Enqueue Scripts and Styles
+function custom_auth_enqueue_scripts() {
+    wp_enqueue_style('custom-auth-login', plugin_dir_url(__FILE__) . 'css/login.css');
+    wp_enqueue_style('custom-auth-registration', plugin_dir_url(__FILE__) . 'css/registration.css');
+    wp_enqueue_script('custom-auth-js', plugin_dir_url(__FILE__) . 'js/auth.js', array('jquery'), null, true);
+}
+add_action('wp_enqueue_scripts', 'custom_auth_enqueue_scripts');
+
+// Shortcode for Displaying Authentication Modal
 function custom_auth_shortcode() {
     ob_start();
+    if (is_user_logged_in()) {
+        $current_user = wp_get_current_user();
+        ?>
+        <!-- Display Profile Icon or Link -->
+        <div class="profile-section">
+            <img src="<?php echo get_avatar_url($current_user->ID); ?>" alt="Profile Icon" class="profile-icon">
+            <span class="profile-name"><?php echo esc_html($current_user->display_name); ?></span>
+            <a href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id'))); ?>" class="profile-link">My Profile</a>
+            <a href="<?php echo wp_logout_url(home_url()); ?>" class="logout-link">Logout</a>
+        </div>
+        <?php
+    } else {
+        ?>
+        <!-- Login Button -->
+        <button id="open-auth-modal">Customer Login</button>
+        <?php
+    }
+
     ?>
-    <!-- Login Button -->
-    <button id="open-auth-modal">Customer Login</button>
 
     <!-- Modal -->
     <div id="custom-auth-modal" class="auth-modal">
@@ -22,164 +47,12 @@ function custom_auth_shortcode() {
             <span class="auth-close" onclick="closeAuthModal()">&times;</span>
             
             <!-- Login Form -->
-            <div id="login-section">
-                <h2>Customer Login</h2>
-                <form method="post">
-                    <label for="username">Username</label>
-                    <input type="text" name="username" required>
+            <?php include plugin_dir_path(__FILE__) . 'includes/login.php'; ?>
 
-                    <label for="password">Password</label>
-                    <input type="password" name="password" required>
-
-                    <input type="submit" name="login_user" value="Login">
-                </form>
-
-                <div id="otp-section" style="display: none;">
-                    <h3>Enter OTP</h3>
-                    <form method="post">
-                        <input type="text" name="otp" required>
-                        <input type="submit" name="verify_otp" value="Verify OTP">
-                    </form>
-                </div>
-
-                <p>Don't have an account? <a href="#" onclick="showRegistration()">Register Here</a></p>
-            </div>
-
-           <!-- Registration Form -->
-<div id="registration-section" style="display: none;">
-    <h2>Register</h2>
-    <form method="post">
-        <div style="display: flex; gap: 10px;">
-            <div style="flex: 1;">
-                <label for="username">Username</label>
-                <input type="text" name="username" required>
-            </div>
-            <div style="flex: 1;">
-                <label for="password">Password</label>
-                <input type="password" name="password" required>
-            </div>
-        </div>
-
-        <label for="email">Email</label>
-        <input type="email" name="email" required>
-
-        <label for="phone">Phone</label>
-        <input type="tel" name="phone" required>
-
-        <label for="address">Address</label>
-        <input type="text" name="address" required>
-
-        <label for="gender">Gender</label>
-        <select name="gender" required>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="other">Other</option>
-        </select>
-
-        <!-- Relationship Field -->
-        <div class="relation">
-            <label for="relationship">Relationship</label>
-            <!-- Add Relationship Button -->
-            <button type="button" id="add-relationship-btn">Add Relationship</button>
-        </div>
-
-        <!-- Container for Additional Relationships -->
-        <div id="relationship-container"></div>
-
-        <input type="submit" name="register_user" value="Register">
-    </form>
-
-    <p>Already have an account? <a href="#" onclick="showLogin()">Login Here</a></p>
-</div>
+            <!-- Registration Form -->
+            <?php include plugin_dir_path(__FILE__) . 'includes/registration.php'; ?>
         </div>
     </div>
-
-    <script>
-document.getElementById("add-relationship-btn").addEventListener("click", function() {
-    // Create a new div for the relationship fields
-    let relationshipDiv = document.createElement("div");
-    relationshipDiv.classList.add("relationship-entry");
-
-    // Add Name Field
-    let nameField = document.createElement("input");
-    nameField.type = "text";
-    nameField.name = "relationship_name[]";
-    nameField.placeholder = "Name";
-    nameField.required = true;
-
-    // Add Email Field
-    let emailField = document.createElement("input");
-    emailField.type = "email";
-    emailField.name = "relationship_email[]";
-    emailField.placeholder = "Email";
-    emailField.required = true;
-
-    // Add Phone Field
-    let phoneField = document.createElement("input");
-    phoneField.type = "tel";
-    phoneField.name = "relationship_phone[]";
-    phoneField.placeholder = "Phone";
-    phoneField.required = true;
-
-    // Add Address Field
-    let addressField = document.createElement("input");
-    addressField.type = "text";
-    addressField.name = "relationship_address[]";
-    addressField.placeholder = "Address";
-    addressField.required = true;
-
-    // Add Relationship Dropdown
-    let relationshipDropdown = document.createElement("select");
-    relationshipDropdown.name = "relationship_type[]";
-    let options = ["Parent", "Child", "Brother", "Sister"];
-    options.forEach(optionText => {
-        let option = document.createElement("option");
-        option.value = optionText.toLowerCase();
-        option.textContent = optionText;
-        relationshipDropdown.appendChild(option);
-    });
-
-    // Add Remove Button
-    let removeBtn = document.createElement("button");
-    removeBtn.type = "button";
-    removeBtn.textContent = "Remove";
-    removeBtn.onclick = function() {
-        relationshipDiv.remove();
-    };
-
-    // Append all fields to the new div
-    relationshipDiv.appendChild(nameField);
-    relationshipDiv.appendChild(emailField);
-    relationshipDiv.appendChild(phoneField);
-    relationshipDiv.appendChild(addressField);
-    relationshipDiv.appendChild(relationshipDropdown);
-    relationshipDiv.appendChild(removeBtn);
-
-    // Append to container
-    document.getElementById("relationship-container").appendChild(relationshipDiv);
-});
-
-
-        document.getElementById("open-auth-modal").addEventListener("click", function() {
-            document.getElementById("custom-auth-modal").style.display = "block";
-            document.getElementById("login-section").style.display = "block";
-            document.getElementById("registration-section").style.display = "none";
-        });
-
-        function closeAuthModal() {
-            document.getElementById("custom-auth-modal").style.display = "none";
-        }
-
-        function showRegistration() {
-            document.getElementById("login-section").style.display = "none";
-            document.getElementById("registration-section").style.display = "block";
-        }
-
-        function showLogin() {
-            document.getElementById("registration-section").style.display = "none";
-            document.getElementById("login-section").style.display = "block";
-        }
-    </script>
     <style>
 
 /* General Styling */
@@ -364,4 +237,5 @@ body {
     <?php
     return ob_get_clean();
 }
+
 add_shortcode('custom_auth', 'custom_auth_shortcode');
