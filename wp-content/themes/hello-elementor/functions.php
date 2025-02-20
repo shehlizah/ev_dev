@@ -281,3 +281,57 @@ function hello_elementor_get_theme_notifications(): ThemeNotifications {
 }
 
 hello_elementor_get_theme_notifications();
+
+function custom_login_validation($username, $password) {
+    $user = wp_authenticate($username, $password);
+
+    if (is_wp_error($user)) {
+        return false; // Invalid login
+    }
+
+    return $user;
+}
+function custom_user_login() {
+    check_ajax_referer('custom_login_action', 'security');
+
+    $username = sanitize_text_field($_POST['username']);
+    $password = sanitize_text_field($_POST['password']);
+
+    $user = wp_authenticate($username, $password);
+
+    if (is_wp_error($user)) {
+        wp_send_json(['success' => false, 'message' => 'Invalid username or password.']);
+    }
+
+    wp_set_current_user($user->ID);
+    wp_set_auth_cookie($user->ID);
+
+    wp_send_json(['success' => true]);
+}
+add_action('wp_ajax_custom_user_login', 'custom_user_login');
+add_action('wp_ajax_nopriv_custom_user_login', 'custom_user_login');
+
+function get_customer_login_url() {
+    return home_url('customer-login');
+}
+add_shortcode('customer_login_url', 'get_customer_login_url');
+
+
+function redirect_customers_after_login($redirect_to, $request, $user) {
+    if (isset($user->roles) && in_array('customer', $user->roles)) {
+        return home_url('customer-login/customer-dashboard');
+    }
+    return $redirect_to;
+}
+add_filter('login_redirect', 'redirect_customers_after_login', 10, 3);
+function redirect_non_logged_users() {
+    if (!is_user_logged_in() && is_page('customer-dashboard')) {
+        wp_redirect(home_url('/'));
+        exit;
+    }
+}
+add_action('template_redirect', 'redirect_non_logged_users');
+function custom_rewrite_rules() {
+    add_rewrite_rule('^customer-dashboard/?$', 'wp-content/themes/hello-elementor/customer-login/customer-dashboard.php', 'top');
+}
+add_action('init', 'custom_rewrite_rules');

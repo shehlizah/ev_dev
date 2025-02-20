@@ -26,6 +26,8 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  * 3. Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`.
  */
+
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */

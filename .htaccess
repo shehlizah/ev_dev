@@ -3,5 +3,17 @@
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
 # dynamically generated, and should only be modified via WordPress filters.
 # Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /ev_dev/
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^^customer-dashboard/?$ /ev_dev/wp-content/themes/hello-elementor/customer-login/customer-dashboard.php [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /ev_dev/index.php [L]
+</IfModule>
+
+# END WordPress
 
 # END WordPress

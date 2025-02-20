@@ -1,0 +1,55 @@
+[18-Feb-2025 14:30:09 UTC] Automatic updates starting...
+[18-Feb-2025 14:30:11 UTC]   Automatic plugin updates starting...
+[18-Feb-2025 14:30:12 UTC]   Automatic plugin updates complete.
+[18-Feb-2025 14:30:12 UTC]   Automatic theme updates starting...
+[18-Feb-2025 14:30:15 UTC]   Automatic theme updates complete.
+[18-Feb-2025 14:30:16 UTC] Automatic updates complete.
+[18-Feb-2025 16:27:08 UTC] PHP Deprecated:  Function get_page_by_title is <strong>deprecated</strong> since version 6.2.0! Use WP_Query instead. in C:\xampp\htdocs\ev_dev\wp-includes\functions.php on line 6114
+[18-Feb-2025 17:19:47 UTC] Username: shehlizah+1@gmail.com
+[18-Feb-2025 17:19:47 UTC] Password: e8TB!S67v1ziQU9so8d!sAyY
+[18-Feb-2025 17:50:19 UTC] Username: shehlizah+2@gmail.com
+[18-Feb-2025 17:50:19 UTC] Password: W9NihasXVetK0Uh*l&#SqsFC
+[18-Feb-2025 17:50:27 UTC] Username: shehlizah+2@gmail.com
+[18-Feb-2025 17:50:27 UTC] Password: W9NihasXVetK0Uh*l&#SqsFC
+[18-Feb-2025 18:20:19 UTC] Username: shehlizah+2@gmail.com
+[18-Feb-2025 18:20:19 UTC] Password: W9NihasXVetK0Uh*l&#SqsFC
+[18-Feb-2025 19:12:01 UTC] Username: shehlizah+2@gmail.com
+[18-Feb-2025 19:12:01 UTC] Password: W9NihasXVetK0Uh*l&#SqsFC
+[18-Feb-2025 20:21:20 UTC] Automatic updates starting...
+[18-Feb-2025 20:21:20 UTC]   Automatic plugin updates starting...
+[18-Feb-2025 20:21:21 UTC]   Automatic plugin updates complete.
+[18-Feb-2025 20:21:25 UTC]   Automatic theme updates starting...
+[18-Feb-2025 20:21:28 UTC]   Automatic theme updates complete.
+[18-Feb-2025 20:21:28 UTC] Automatic updates complete.
+[19-Feb-2025 12:07:32 UTC] Automatic updates starting...
+[19-Feb-2025 12:07:34 UTC]   Automatic plugin updates starting...
+[19-Feb-2025 12:07:35 UTC]   Automatic plugin updates complete.
+[19-Feb-2025 12:07:35 UTC]   Automatic theme updates starting...
+[19-Feb-2025 12:07:38 UTC]   Automatic theme updates complete.
+[19-Feb-2025 12:07:38 UTC] Automatic updates complete.
+[19-Feb-2025 16:20:10 UTC] PHP Fatal error:  Cannot redeclare custom_auth_shortcode() (previously declared in C:\xampp\htdocs\ev_dev\wp-content\plugins\custom-user-auth\custom-user-auth.php:17) in C:\xampp\htdocs\ev_dev\wp-content\plugins\custom-user-auth\custom-user-auth.php on line 37
+[19-Feb-2025 16:20:10 UTC] PHP Fatal error:  Cannot redeclare custom_auth_shortcode() (previously declared in C:\xampp\htdocs\ev_dev\wp-content\plugins\custom-user-auth\custom-user-auth.php:17) in C:\xampp\htdocs\ev_dev\wp-content\plugins\custom-user-auth\custom-user-auth.php on line 37
+[19-Feb-2025 16:20:11 UTC] PHP Fatal error:  Cannot redeclare custom_auth_shortcode() (previously declared in C:\xampp\htdocs\ev_dev\wp-content\plugins\custom-user-auth\custom-user-auth.php:17) in C:\xampp\htdocs\ev_dev\wp-content\plugins\custom-user-auth\custom-user-auth.php on line 37
+[19-Feb-2025 16:20:11 UTC] PHP Fatal error:  Cannot redeclare custom_auth_shortcode() (previously declared in C:\xampp\htdocs\ev_dev\wp-content\plugins\custom-user-auth\custom-user-auth.php:17) in C:\xampp\htdocs\ev_dev\wp-content\plugins\custom-user-auth\custom-user-auth.php on line 37
+[19-Feb-2025 18:28:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ev_dev\wp-includes\class-wp-styles.php:214) in C:\xampp\htdocs\ev_dev\wp-includes\pluggable.php on line 1435
+[19-Feb-2025 18:28:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ev_dev\wp-includes\class-wp-styles.php:214) in C:\xampp\htdocs\ev_dev\wp-includes\pluggable.php on line 1438
+[19-Feb-2025 18:30:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ev_dev\wp-includes\class-wp-styles.php:214) in C:\xampp\htdocs\ev_dev\wp-includes\pluggable.php on line 1435
+[19-Feb-2025 18:30:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ev_dev\wp-includes\class-wp-styles.php:214) in C:\xampp\htdocs\ev_dev\wp-includes\pluggable.php on line 1438
+[19-Feb-2025 18:49:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ev_dev\wp-includes\class-wp-styles.php:214) in C:\xampp\htdocs\ev_dev\wp-includes\pluggable.php on line 1435
+[19-Feb-2025 18:49:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ev_dev\wp-includes\class-wp-styles.php:214) in C:\xampp\htdocs\ev_dev\wp-includes\pluggable.php on line 1438
+[19-Feb-2025 18:52:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ev_dev\wp-includes\class-wp-styles.php:214) in C:\xampp\htdocs\ev_dev\wp-includes\pluggable.php on line 1435
+[19-Feb-2025 18:52:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ev_dev\wp-includes\class-wp-styles.php:214) in C:\xampp\htdocs\ev_dev\wp-includes\pluggable.php on line 1438
+[19-Feb-2025 18:55:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ev_dev\wp-includes\class-wp-styles.php:214) in C:\xampp\htdocs\ev_dev\wp-includes\pluggable.php on line 1435
+[19-Feb-2025 18:55:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ev_dev\wp-includes\class-wp-styles.php:214) in C:\xampp\htdocs\ev_dev\wp-includes\pluggable.php on line 1438
+[19-Feb-2025 18:56:14 UTC] PHP Notice:  Function map_meta_cap was called <strong>incorrectly</strong>. The post type <code>um_directory</code> is not registered, so it may not be reliable to check the capability <code>edit_post</code> against a post of that type. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\xampp\htdocs\ev_dev\wp-includes\functions.php on line 6114
+[19-Feb-2025 19:44:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ev_dev\wp-includes\class-wp-styles.php:214) in C:\xampp\htdocs\ev_dev\wp-includes\pluggable.php on line 1435
+[19-Feb-2025 19:44:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ev_dev\wp-includes\class-wp-styles.php:214) in C:\xampp\htdocs\ev_dev\wp-includes\pluggable.php on line 1438
+[19-Feb-2025 19:58:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ev_dev\wp-includes\class-wp-styles.php:214) in C:\xampp\htdocs\ev_dev\wp-includes\pluggable.php on line 1435
+[19-Feb-2025 19:58:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ev_dev\wp-includes\class-wp-styles.php:214) in C:\xampp\htdocs\ev_dev\wp-includes\pluggable.php on line 1438
+[19-Feb-2025 20:20:04 UTC] Automatic updates starting...
+[19-Feb-2025 20:20:04 UTC]   Automatic plugin updates starting...
+[19-Feb-2025 20:20:05 UTC]   Automatic plugin updates complete.
+[19-Feb-2025 20:20:06 UTC]   Automatic theme updates starting...
+[19-Feb-2025 20:20:09 UTC]   Automatic theme updates complete.
+[19-Feb-2025 20:20:09 UTC] Automatic updates complete.
+[20-Feb-2025 15:05:29 UTC] Cron reschedule event error for hook: um_hourly_scheduled_events, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
