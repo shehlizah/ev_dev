@@ -1,0 +1,345 @@
+0000.001 (0) Opened log file at time: Thu, 20 Feb 2025 18:17:43 +0000 on http://localhost/ev_dev
+0000.935 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.1 WP: 6.7.2 PHP: 8.0.30 (apache2handler, Windows NT DESKTOP-P4CEAPA 10.0 build 22621 (Windows 10) AMD64) MySQL: 8.0.41-0ubuntu0.24.04.1 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30 safe_mode: 0 max_execution_time: 900 memory_limit: 1000M (used: 67.9M | 70M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0001.249 (0) Free space on disk containing Updraft's temporary directory: 11003.9 MB
+0002.495 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0003.127 (0) Semaphore (fd, wp_options) being initialised
+0004.850 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0006.113 (0) Set semaphore last lock (fd) time to 2025-02-20 18:17:49
+0006.427 (0) Semaphore lock (fd) complete
+0008.323 (0) Backup run: resumption=0, nonce=8b41fc376371, file_nonce=8b41fc376371 begun at=1740075463 (8s ago), job type=backup
+0008.949 (0) Scheduling a resumption (1) after 300 seconds (1740075772) in case this run gets aborted
+0009.912 (0) Checking if we have a zip executable available
+0010.541 (0) Creation of backups of directories: beginning
+0011.500 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0014.872 (0) Total entities for the zip file: 1227 directories, 6033 files (0 skipped as non-modified), 133.7 MB
+0015.193 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0016.358 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 100 files added (on-disk size: 214.9 KB)
+0016.745 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 200 files added (on-disk size: 214.9 KB)
+0017.148 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 300 files added (on-disk size: 214.9 KB)
+0017.516 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 400 files added (on-disk size: 214.9 KB)
+0017.914 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 500 files added (on-disk size: 214.9 KB)
+0018.324 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 6033 files batched, 580 (581) added so far); re-opening (prior size: 214.9 KB)
+0032.666 (0) A useful amount of data was added after this amount of zip processing: 17.2 s (normalised: 17.2 s, rate: 1487.9 KB/s)
+0033.325 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 600 files added (on-disk size: 6166.6 KB)
+0033.705 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 700 files added (on-disk size: 6166.6 KB)
+0034.086 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 800 files added (on-disk size: 6166.6 KB)
+0034.491 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 900 files added (on-disk size: 6166.6 KB)
+0034.929 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 1000 files added (on-disk size: 6166.6 KB)
+0035.301 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 1100 files added (on-disk size: 6166.6 KB)
+0035.622 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (21.9 MB, 520 (1101) files added so far); re-opening (prior size: 6166.6 KB)
+0054.885 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 1200 files added (on-disk size: 12692.9 KB)
+0055.278 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 1300 files added (on-disk size: 12692.9 KB)
+0055.648 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 1400 files added (on-disk size: 12692.9 KB)
+0056.059 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 1500 files added (on-disk size: 12692.9 KB)
+0056.486 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 1600 files added (on-disk size: 12692.9 KB)
+0056.868 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 1700 files added (on-disk size: 12692.9 KB)
+0057.263 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 1800 files added (on-disk size: 12692.9 KB)
+0057.586 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.6 MB, 700 (1801) files added so far); re-opening (prior size: 12692.9 KB)
+0075.734 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 1900 files added (on-disk size: 13786.8 KB)
+0076.120 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 2000 files added (on-disk size: 13786.8 KB)
+0076.557 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 2100 files added (on-disk size: 13786.8 KB)
+0076.932 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 2200 files added (on-disk size: 13786.8 KB)
+0077.335 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 2300 files added (on-disk size: 13786.8 KB)
+0077.744 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 2400 files added (on-disk size: 13786.8 KB)
+0078.135 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 2500 files added (on-disk size: 13786.8 KB)
+0078.453 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (16.3 MB, 702 (2503) files added so far); re-opening (prior size: 13786.8 KB)
+0122.465 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 2600 files added (on-disk size: 18798.6 KB)
+0122.864 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 2700 files added (on-disk size: 18798.6 KB)
+0123.306 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 2800 files added (on-disk size: 18798.6 KB)
+0123.734 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 2900 files added (on-disk size: 18798.6 KB)
+0124.278 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 3000 files added (on-disk size: 18798.6 KB)
+0124.594 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (12.4 MB, 498 (3001) files added so far); re-opening (prior size: 18798.6 KB)
+0139.336 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 3100 files added (on-disk size: 23498.7 KB)
+0139.713 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 3200 files added (on-disk size: 23498.7 KB)
+0140.084 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 3300 files added (on-disk size: 23498.7 KB)
+0140.455 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 3400 files added (on-disk size: 23498.7 KB)
+0140.828 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 3500 files added (on-disk size: 23498.7 KB)
+0141.212 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 3600 files added (on-disk size: 23498.7 KB)
+0141.530 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (13.7 MB, 600 (3601) files added so far); re-opening (prior size: 23498.7 KB)
+0161.715 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 3700 files added (on-disk size: 26475 KB)
+0162.091 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 3800 files added (on-disk size: 26475 KB)
+0162.477 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 3900 files added (on-disk size: 26475 KB)
+0162.879 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 4000 files added (on-disk size: 26475 KB)
+0163.258 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 4100 files added (on-disk size: 26475 KB)
+0163.647 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 4200 files added (on-disk size: 26475 KB)
+0164.035 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 4300 files added (on-disk size: 26475 KB)
+0164.431 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 4400 files added (on-disk size: 26475 KB)
+0164.748 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (12 MB, 800 (4401) files added so far); re-opening (prior size: 26475 KB)
+0181.585 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 4500 files added (on-disk size: 29917.1 KB)
+0181.971 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 4600 files added (on-disk size: 29917.1 KB)
+0182.356 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 4700 files added (on-disk size: 29917.1 KB)
+0182.758 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 4800 files added (on-disk size: 29917.1 KB)
+0183.143 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 4900 files added (on-disk size: 29917.1 KB)
+0183.513 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 5000 files added (on-disk size: 29917.1 KB)
+0183.897 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 5100 files added (on-disk size: 29917.1 KB)
+0184.278 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 5200 files added (on-disk size: 29917.1 KB)
+0184.596 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (21.9 MB, 800 (5201) files added so far); re-opening (prior size: 29917.1 KB)
+0196.568 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 5300 files added (on-disk size: 36118.7 KB)
+0196.959 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 5400 files added (on-disk size: 36118.7 KB)
+0197.368 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 5500 files added (on-disk size: 36118.7 KB)
+0197.762 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 5600 files added (on-disk size: 36118.7 KB)
+0198.180 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 5700 files added (on-disk size: 36118.7 KB)
+0198.493 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.4 MB, 500 (5701) files added so far); re-opening (prior size: 36118.7 KB)
+0200.025 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 5800 files added (on-disk size: 37551.8 KB)
+0200.431 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 5900 files added (on-disk size: 37551.8 KB)
+0200.818 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.tmp: 6000 files added (on-disk size: 37551.8 KB)
+0202.233 (0) Creating zip file manifest (backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.list-temp.tmp)
+0202.582 (0) Successfully created zip file manifest (size: 512614)
+0204.582 (0) Created plugins zip (0) - 38248.4 KB in 192.5 s (198.7 KB/s) (sha1: cd96d82b98aec0707fb34ca9df95956c6edca05e, sha256: cd4efed651031f78241e5c80fa0c198c152edaaf20e104e66da0f833866fd91f)
+0205.531 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0205.843 (0) No remote despatch: user chose no remote backup service
+0206.459 (0) Recording as successfully uploaded: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip
+0207.086 (0) Deleting zip manifest (backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip.list.tmp)
+0208.934 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0209.551 (0) Number of backup sets in history: 0; groups (db): 1
+0209.863 (0) Number of backup sets in history: 0; groups (files): 1
+0210.177 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0212.051 (0) Beginning creation of dump of themes (split every: 400 MB)
+0212.829 (0) Total entities for the zip file: 61 directories, 457 files (0 skipped as non-modified), 14 MB
+0213.202 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0213.572 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0213.942 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0214.330 (0) Zip: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0214.645 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (11.4 MB, 401 (401) files added so far); re-opening (prior size: 0 KB)
+0227.058 (0) Creating zip file manifest (backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-themes.zip.list-temp.tmp)
+0227.377 (0) Successfully created zip file manifest (size: 31998)
+0229.014 (0) Created themes zip (0) - 13089.1 KB in 16.3 s (801.5 KB/s) (sha1: dde2b11f8ada1627d8b1e8764592b464f150559d, sha256: 1a7ce8adb7224564bb1f0518573013b2ad66e28e3d729735025cf31ea4735514)
+0229.964 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0230.279 (0) No remote despatch: user chose no remote backup service
+0230.899 (0) Recording as successfully uploaded: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-themes.zip
+0231.527 (0) Deleting zip manifest (backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-themes.zip.list.tmp)
+0232.465 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0233.088 (0) Number of backup sets in history: 0; groups (db): 1
+0233.401 (0) Number of backup sets in history: 0; groups (files): 1
+0233.716 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0235.921 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0236.248 (0) Looking for candidates to backup in: C:\xampp\htdocs\ev_dev/wp-content/uploads
+0236.560 (0) finding files: 2025: adding to list (1)
+0236.879 (0) finding files: elementor: adding to list (2)
+0237.194 (0) finding files: essential-addons-elementor: adding to list (3)
+0237.516 (0) finding files: ultimatemember: adding to list (4)
+0237.831 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0238.487 (0) Total entities for the zip file: 7 directories, 9 files (0 skipped as non-modified), 0.9 MB
+0239.305 (0) Creating zip file manifest (backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-uploads.zip.list-temp.tmp)
+0239.625 (0) Successfully created zip file manifest (size: 458)
+0240.935 (0) Created uploads zip (0) - 288.2 KB in 2.5 s (117 KB/s) (sha1: e54d4da5ad43dd6153964e0255af65c1a00a8527, sha256: 635f4c0a2c7a37e0683bc927ecfdcdddcc97871ba4e991abf2714b59a18235b0)
+0241.914 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0242.237 (0) No remote despatch: user chose no remote backup service
+0243.975 (0) Recording as successfully uploaded: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-uploads.zip
+0244.616 (0) Deleting zip manifest (backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-uploads.zip.list.tmp)
+0245.567 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0246.186 (0) Number of backup sets in history: 0; groups (db): 1
+0246.501 (0) Number of backup sets in history: 0; groups (files): 1
+0246.817 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0248.733 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0249.388 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0250.034 (0) Creating zip file manifest (backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-mu-plugins.zip.list-temp.tmp)
+0250.345 (0) Successfully created zip file manifest (size: 71)
+0251.607 (0) Created mu-plugins zip (0) - 1.8 KB in 2.2 s (0.8 KB/s) (sha1: 661addc4e8b5b67bac5bd56899e6947e0c7e279c, sha256: d686c53fa4370c069c77adb293d6ff66217ddb4bc832568136a2dd47e5ef4111)
+0252.571 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0252.883 (0) No remote despatch: user chose no remote backup service
+0253.509 (0) Recording as successfully uploaded: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-mu-plugins.zip
+0254.154 (0) Deleting zip manifest (backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-mu-plugins.zip.list.tmp)
+0255.097 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0255.729 (0) Number of backup sets in history: 0; groups (db): 1
+0256.050 (0) Number of backup sets in history: 0; groups (files): 1
+0256.379 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0258.310 (0) Beginning backup of other directories found in the content directory (index: 0)
+0258.944 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0259.260 (0) Looking for candidates to backup in: C:\xampp\htdocs\ev_dev/wp-content
+0259.577 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0259.888 (0) finding files: debug.log: skipping: excluded by options
+0260.201 (0) finding files: index.php: adding to list (1)
+0260.520 (0) finding files: languages: adding to list (2)
+0260.833 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0261.154 (0) finding files: plugins: skipping: this is the plugins directory
+0261.475 (0) finding files: plugins-old: adding to list (3)
+0261.791 (0) finding files: themes: skipping: this is the themes directory
+0262.106 (0) finding files: updraft: skipping: this is the updraft directory
+0262.421 (0) finding files: upgrade: skipping: excluded by options
+0262.740 (0) finding files: uploads: skipping: this is the uploads directory
+0263.530 (0) Total entities for the zip file: 9 directories, 41 files (0 skipped as non-modified), 0.3 MB
+0272.671 (0) The time we have been running (271.7) is approaching the resumption interval (300) - increasing resumption interval to 302
+0273.307 (0) The scheduled resumption is within 45 seconds - will reschedule
+0273.945 (0) Rescheduling resumption 1: moving to 347 seconds from now (1740076084)
+0274.891 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 302 + 45 = 347
+0275.205 (0) Creating zip file manifest (backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-others.zip.list-temp.tmp)
+0275.520 (0) Successfully created zip file manifest (size: 2088)
+0276.793 (0) Created others zip (0) - 109.9 KB in 13.4 s (8.2 KB/s) (sha1: 31210df21092b71ddea1ca530a4e1205c2f4cb89, sha256: 8521f9a28e47ad2793e4d49e1c1a1a75e23459d27e1b510f2d096312cd4a156d)
+0277.742 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0278.055 (0) No remote despatch: user chose no remote backup service
+0278.676 (0) Recording as successfully uploaded: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-others.zip
+0279.317 (0) Deleting zip manifest (backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-others.zip.list.tmp)
+0280.256 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0280.882 (0) Number of backup sets in history: 0; groups (db): 1
+0281.208 (0) Number of backup sets in history: 0; groups (files): 1
+0281.520 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0284.058 (0) Saving backup status to database (elements: 10)
+0285.298 (0) Beginning creation of database dump (WordPress DB)
+0286.226 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0289.986 (0) Table wp_options: Total expected rows (via COUNT): 317
+0290.299 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0299.455 (0) Table wp_options: Rows added in this batch (next record: 1057): 313 (uncompressed bytes in this segment=1484569) in 11.02 seconds
+0300.738 (0) Table wp_options: finishing file(s) (2, 258.2 KB)
+0302.614 (0) Table wp_users: Total expected rows (via COUNT): 4
+0302.931 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0304.194 (0) Table wp_users: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1833) in 2.52 seconds
+0305.153 (0) Table wp_users: finishing file(s) (2, 0.8 KB)
+0307.680 (0) Table wp_usermeta: Total expected rows (via COUNT): 90
+0307.997 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0309.272 (0) Table wp_usermeta: Rows added in this batch (next record: 91): 90 (uncompressed bytes in this segment=9032) in 3.17 seconds
+0310.557 (0) Table wp_usermeta: finishing file(s) (2, 2.6 KB)
+0313.061 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0314.005 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 2.51 seconds
+0315.311 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0317.205 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0317.535 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0318.813 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2118) in 2.53 seconds
+0320.076 (0) The time we have been running (319.1) is approaching the resumption interval (347) - increasing resumption interval to 350
+0321.721 (0) The time we have been running (320.7) is approaching the resumption interval (350) - increasing resumption interval to 351
+0322.373 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0324.872 (0) Table wp_e_notes: Total expected rows (via COUNT): 0
+0325.822 (0) Table wp_e_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2049) in 2.50 seconds
+0327.408 (0) The time we have been running (326.5) is approaching the resumption interval (351) - increasing resumption interval to 357
+0329.023 (0) The time we have been running (328.1) is approaching the resumption interval (357) - increasing resumption interval to 359
+0329.660 (0) Table wp_e_notes: finishing file(s) (2, 0.8 KB)
+0331.525 (0) Table wp_e_notes_users_relations: Total expected rows (via COUNT): 0
+0332.146 (0) Table wp_e_notes_users_relations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=871) in 1.54 seconds
+0333.436 (0) The time we have been running (332.5) is approaching the resumption interval (359) - increasing resumption interval to 363
+0335.034 (0) The time we have been running (334.1) is approaching the resumption interval (363) - increasing resumption interval to 365
+0335.673 (0) Table wp_e_notes_users_relations: finishing file(s) (2, 0.4 KB)
+0337.536 (0) Table wp_links: Total expected rows (via COUNT): 0
+0338.156 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 1.55 seconds
+0339.417 (0) The time we have been running (338.5) is approaching the resumption interval (365) - increasing resumption interval to 369
+0340.995 (0) The time we have been running (340.1) is approaching the resumption interval (369) - increasing resumption interval to 371
+0341.639 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0343.841 (0) Table wp_postmeta: Total expected rows (approximate): 1445
+0346.071 (0) Table wp_postmeta: Rows added in this batch (next record: 2540): 1609 (uncompressed bytes in this segment=741952) in 3.49 seconds
+0347.653 (0) The time we have been running (346.7) is approaching the resumption interval (371) - increasing resumption interval to 377
+0349.254 (0) The time we have been running (348.3) is approaching the resumption interval (377) - increasing resumption interval to 379
+0349.885 (0) Table wp_postmeta: finishing file(s) (2, 32 KB)
+0352.392 (0) Table wp_posts: Total expected rows (via COUNT): 320
+0352.711 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0354.403 (0) Table wp_posts: Rows added in this batch (next record: 342): 320 (uncompressed bytes in this segment=720593) in 3.57 seconds
+0356.000 (0) The time we have been running (355) is approaching the resumption interval (379) - increasing resumption interval to 386
+0357.576 (0) The time we have been running (356.6) is approaching the resumption interval (386) - increasing resumption interval to 387
+0358.216 (0) Table wp_posts: finishing file(s) (2, 30.9 KB)
+0359.783 (0) Table wp_term_relationships: Total expected rows (approximate): 8
+0361.028 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 8 (uncompressed bytes in this segment=782) in 1.86 seconds
+0362.301 (0) The time we have been running (361.3) is approaching the resumption interval (387) - increasing resumption interval to 392
+0363.905 (0) The time we have been running (362.9) is approaching the resumption interval (392) - increasing resumption interval to 393
+0364.551 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0367.078 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 5
+0367.390 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0368.642 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1048) in 3.13 seconds
+0370.212 (0) The time we have been running (369.3) is approaching the resumption interval (393) - increasing resumption interval to 400
+0371.780 (0) The time we have been running (370.8) is approaching the resumption interval (400) - increasing resumption interval to 401
+0372.407 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0374.916 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0375.853 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 2.49 seconds
+0377.428 (0) The time we have been running (376.5) is approaching the resumption interval (401) - increasing resumption interval to 407
+0379.005 (0) The time we have been running (378.1) is approaching the resumption interval (407) - increasing resumption interval to 409
+0379.637 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0381.502 (0) Table wp_terms: Total expected rows (via COUNT): 5
+0381.815 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0383.061 (0) Table wp_terms: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=874) in 2.49 seconds
+0384.335 (0) The time we have been running (383.4) is approaching the resumption interval (409) - increasing resumption interval to 414
+0385.917 (0) The time we have been running (385) is approaching the resumption interval (414) - increasing resumption interval to 415
+0386.557 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0388.423 (0) Table wp_e_events: Total expected rows (via COUNT): 4
+0388.741 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0389.685 (0) Table wp_e_events: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1369) in 2.19 seconds
+0390.962 (0) The time we have been running (390) is approaching the resumption interval (415) - increasing resumption interval to 421
+0392.567 (0) The time we have been running (391.6) is approaching the resumption interval (421) - increasing resumption interval to 422
+0393.202 (0) Table wp_e_events: finishing file(s) (2, 0.6 KB)
+0395.071 (0) Table wp_e_submissions: Total expected rows (via COUNT): 0
+0396.019 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2254) in 1.87 seconds
+0397.275 (0) The time we have been running (396.3) is approaching the resumption interval (422) - increasing resumption interval to 427
+0398.853 (0) The time we have been running (397.9) is approaching the resumption interval (427) - increasing resumption interval to 428
+0399.482 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0401.337 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0401.955 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1243) in 1.54 seconds
+0403.218 (0) The time we have been running (402.3) is approaching the resumption interval (428) - increasing resumption interval to 433
+0404.800 (0) The time we have been running (403.8) is approaching the resumption interval (433) - increasing resumption interval to 434
+0405.430 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0407.906 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+0408.525 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 2.16 seconds
+0410.092 (0) The time we have been running (409.2) is approaching the resumption interval (434) - increasing resumption interval to 440
+0411.678 (0) The time we have been running (410.7) is approaching the resumption interval (440) - increasing resumption interval to 441
+0412.307 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0414.804 (0) Table wp_um_metadata: Total expected rows (via COUNT): 0
+0415.424 (0) Table wp_um_metadata: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=712) in 2.17 seconds
+0417.009 (0) The time we have been running (416.1) is approaching the resumption interval (441) - increasing resumption interval to 447
+0418.578 (0) The time we have been running (417.6) is approaching the resumption interval (447) - increasing resumption interval to 448
+0419.205 (0) Table wp_um_metadata: finishing file(s) (2, 0.4 KB)
+0419.518 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\ev_dev/wp-content/updraft/backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db.gz (line 1923, C:\xampp\htdocs\ev_dev\wp-content\plugins\updraftplus\backup.php)
+0420.443 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_options.table.tmpr1058.gz (1/19/fopen): adding to final database dump
+0420.762 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_options.table.gz (2/19/fopen): adding to final database dump
+0421.075 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_users.table.tmpr5.gz (3/19/fopen): adding to final database dump
+0421.389 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_users.table.gz (4/19/fopen): adding to final database dump
+0421.702 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_usermeta.table.tmpr92.gz (5/19/fopen): adding to final database dump
+0422.017 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_usermeta.table.gz (6/19/fopen): adding to final database dump
+0422.330 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_commentmeta.table.tmpr0.gz (7/19/fopen): adding to final database dump
+0422.643 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_commentmeta.table.gz (8/19/fopen): adding to final database dump
+0422.972 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_comments.table.tmpr2.gz (9/19/fopen): adding to final database dump
+0423.288 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_comments.table.gz (10/19/fopen): adding to final database dump
+0423.603 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_e_notes.table.tmpr0.gz (11/19/fopen): adding to final database dump
+0423.918 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_e_notes.table.gz (12/19/fopen): adding to final database dump
+0424.232 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_e_notes_users_relations.table.tmpr0.gz (13/19/fopen): adding to final database dump
+0424.547 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_e_notes_users_relations.table.gz (14/19/fopen): adding to final database dump
+0424.859 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_links.table.tmpr0.gz (15/19/fopen): adding to final database dump
+0425.173 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_links.table.gz (16/19/fopen): adding to final database dump
+0425.487 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_postmeta.table.tmpr2541.gz (17/19/fopen): adding to final database dump
+0425.804 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_postmeta.table.gz (18/19/fopen): adding to final database dump
+0426.118 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_posts.table.tmpr343.gz (19/19/fopen): adding to final database dump
+0426.434 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_posts.table.gz (20/19/fopen): adding to final database dump
+0426.747 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_term_relationships.table.tmpr100001.gz (21/19/fopen): adding to final database dump
+0427.065 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_term_relationships.table.gz (22/19/fopen): adding to final database dump
+0427.379 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_term_taxonomy.table.tmpr6.gz (23/19/fopen): adding to final database dump
+0427.695 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_term_taxonomy.table.gz (24/19/fopen): adding to final database dump
+0428.008 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_termmeta.table.tmpr0.gz (25/19/fopen): adding to final database dump
+0428.320 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_termmeta.table.gz (26/19/fopen): adding to final database dump
+0428.641 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_terms.table.tmpr6.gz (27/19/fopen): adding to final database dump
+0428.955 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_terms.table.gz (28/19/fopen): adding to final database dump
+0429.269 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_e_events.table.tmpr5.gz (29/19/fopen): adding to final database dump
+0429.586 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_e_events.table.gz (30/19/fopen): adding to final database dump
+0429.902 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_e_submissions.table.tmpr0.gz (31/19/fopen): adding to final database dump
+0430.219 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_e_submissions.table.gz (32/19/fopen): adding to final database dump
+0430.534 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (33/19/fopen): adding to final database dump
+0430.850 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_e_submissions_actions_log.table.gz (34/19/fopen): adding to final database dump
+0431.166 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_e_submissions_values.table.tmpr0.gz (35/19/fopen): adding to final database dump
+0431.481 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_e_submissions_values.table.gz (36/19/fopen): adding to final database dump
+0431.798 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_um_metadata.table.tmpr0.gz (37/19/fopen): adding to final database dump
+0432.112 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db-table-wp_um_metadata.table.gz (38/19/fopen): adding to final database dump
+0433.346 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db.gz: finished writing out complete database file (331.7 KB)
+0434.646 (0) Total database tables backed up: 19 (backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db.gz, size: 339818, sha1: c2cb56d60e4b63aee288348ea1aa344bcb9c87cb, sha256: 62191cfd7662e43b8e82fcb9fd208e409cb21aea7fe71cb1f95d41e3763592f7)
+0437.444 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-plugins.zip: plugins: This file has already been successfully processed
+0437.765 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-themes.zip: themes: This file has already been successfully processed
+0438.079 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-uploads.zip: uploads: This file has already been successfully processed
+0438.391 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-mu-plugins.zip: mu-plugins: This file has already been successfully processed
+0438.704 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-others.zip: others: This file has already been successfully processed
+0439.019 (0) backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db.gz: db: This file has not yet been successfully uploaded: will queue
+0439.334 (0) Saving backup history. Total backup size: 50.8 MB
+0440.580 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0441.536 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0441.848 (0) No remote despatch: user chose no remote backup service
+0442.464 (0) Recording as successfully uploaded: backup_2025-02-20-1817_Everlasting_Care_8b41fc376371-db.gz
+0443.719 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0444.337 (0) Number of backup sets in history: 1; groups (db): 1
+0444.649 (0) Examining (for databases) backup set with group_id=0, nonce=8b41fc376371, datestamp=1740075463 (Feb 20 2025 18:17:43)
+0444.963 (0) This backup set is the backup set just made, so will not be deleted.
+0444.963 (0) Number of backup sets in history: 1; groups (files): 1
+0445.280 (0) Examining (for files) backup set with nonce=8b41fc376371, datestamp=1740075463 (Feb 20 2025 18:17:43)
+0445.280 (0) This backup set is the backup set just made, so will not be deleted.
+0445.596 (0) This backup set is the backup set just made, so will not be deleted.
+0445.911 (0) This backup set is the backup set just made, so will not be deleted.
+0445.911 (0) This backup set is the backup set just made, so will not be deleted.
+0445.911 (0) This backup set is the backup set just made, so will not be deleted.
+0445.912 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0446.224 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0447.475 (0) Resume backup (8b41fc376371, 0): finish run
+0448.444 (0) Decremented the semaphore (fd) by 1
+0449.082 (0) Semaphore (fd) unlocked
+0449.395 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0450.644 (0) No email will/can be sent - the user has not configured an email address.
+0450.957 (0) The backup succeeded and is now complete

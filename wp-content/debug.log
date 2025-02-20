@@ -53,3 +53,4 @@
 [19-Feb-2025 20:20:09 UTC]   Automatic theme updates complete.
 [19-Feb-2025 20:20:09 UTC] Automatic updates complete.
 [20-Feb-2025 15:05:29 UTC] Cron reschedule event error for hook: um_hourly_scheduled_events, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Feb-2025 16:43:17 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\xampp\htdocs\ev_dev\wp-includes\class-wpdb.php on line 1982
